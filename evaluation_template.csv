@@ -1,0 +1,4 @@
+test_id,text_id,text,voice_id,speed,voice_action,pause_level,style_instruction,output_file,result,observation
+t001,t001,"The package arrived yesterday. I haven't opened it yet. Could you check the delivery address?",voice_a,1.0,none,3,"Speak clearly and naturally",para01_v1.mp3,review,"Question intonation present; second sentence slightly fast"
+t002,t001,"The package arrived yesterday. I haven't opened it yet. Could you check the delivery address?",voice_a,0.95,none,4,"Speak clearly and naturally",para01_v2.mp3,pass,"Slower pacing fixes the rushed second sentence"
+t003,t002,"We tested three settings. Only one changed the result.",voice_b,1.0,none,3,none,para02_v1.mp3,fail,"Speaker contrast between sentences lost"
